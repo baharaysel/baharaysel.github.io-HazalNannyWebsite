@@ -1,0 +1,142 @@
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  /* background-image: url('../images/pattern.png'); */
+  background-repeat: repeat;
+}
+nav a {
+  color: gray !important;
+}
+
+.bg-primary {
+  background-color: whitesmoke !important;
+}
+
+/* cards */
+
+.card-footer {
+  background: transparent;
+  border-top: 0px;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 40rem;
+  max-width: 100vw;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.welcome-carousel-image1 {
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.3);
+  background-image: url("../images/hazaltoodler2.png");
+}
+
+.welcome-carousel-image2 {
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.3);
+  background-image: url("../images/hazaldog5.png");
+}
+
+.welcome-carousel-image3 {
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.3);
+  background-image: url("../images/hazalbike2.png");
+}
+
+.smallCarousel .carousel-item,
+.latest_projects .col .card .card-img-top,
+.services-cards .card-body {
+  height: 23rem;
+  max-width: 100vw;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.services-cards .card-body{
+  background-color: #f6dff4;
+  border: solid #edabdd !important;
+  padding: 0.5rem;
+}
+#services-btn{
+  background-color: #ec65e1;
+  border: solid #edabdd !important;
+padding-left: 7rem;
+padding-right: 7rem;
+
+}
+#services-btn:hover{
+  background-color: #edabdd;
+}
+/* .latest_projects .col .card .card-img-top {
+  height: 23rem;
+  max-width: 100vw;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+} */
+
+/* Shopping cart offcanvas */
+.shopping-cart-offcanvas {
+  width: 500px;
+}
+
+/* Jumbotron */
+
+.jumbotron-projects {
+  background: url("../images/children.png") no-repeat fixed;
+}
+
+.jumbotron {
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.1);
+  height: 40vh;
+  background-size: cover;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.no_blueunderline {
+  color: red !important;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+/* whatsapp */
+.whatsapp {
+  color: green !important;
+}
+.whatsapp:hover {
+  color: darkgreen !important;
+}
+.instagram {
+  color: #8a3ab9 !important;
+}
+.babysittingServices {
+  color: whitesmoke !important;
+}
+.babysittingServices:hover {
+  color: rgb(93, 91, 91) !important;
+}

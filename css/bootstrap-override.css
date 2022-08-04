@@ -1,0 +1,157 @@
+.bg-primary {
+  background-color: rgb(166, 207, 152) !important;
+}
+
+.btn-primary {
+  background-color: rgb(166, 207, 152);
+  border-color: rgb(166, 207, 152);
+}
+
+.btn-primary:hover {
+  background-color: rgb(85, 124, 85);
+  border-color: rgb(85, 124, 85);
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  background-color: rgb(85, 124, 85);
+  border-color: rgb(85, 124, 85);
+  box-shadow: 0 0 0 0.2rem rgba(165, 147, 194, 0.5);
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+  background-color: rgb(166, 207, 152);
+  border-color: rgb(166, 207, 152);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: rgb(85, 124, 85);
+  border-color: rgb(85, 124, 85);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(165, 147, 194, 0.5);
+}
+
+.btn-outline-primary {
+  color: rgb(166, 207, 152);
+  border-color: rgb(166, 207, 152);
+}
+
+.btn-outline-primary:hover {
+  background-color: rgb(166, 207, 152);
+  border-color: rgb(166, 207, 152);
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(165, 147, 194, 0.5);
+}
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+  color: rgb(166, 207, 152);
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-primary.dropdown-toggle {
+  background-color: rgb(166, 207, 152);
+  border-color: rgb(166, 207, 152);
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(165, 147, 194, 0.5);
+}
+
+.btn-success {
+  background-color: #23cfa7;
+  border-color: #23cfa7;
+}
+
+.btn-success:hover {
+  background-color: #19ae8b;
+  border-color: #19ae8b;
+}
+
+.btn-success:focus,
+.btn-success.focus {
+  background-color: #19ae8b;
+  border-color: #19ae8b;
+  box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
+}
+
+.btn-success.disabled,
+.btn-success:disabled {
+  background-color: #23cfa7;
+  border-color: #23cfa7;
+}
+
+.btn-success:not(:disabled):not(.disabled):active,
+.btn-success:not(:disabled):not(.disabled).active,
+.show > .btn-success.dropdown-toggle {
+  background-color: #19ae8b;
+  border-color: #1c7430;
+}
+
+.text-primary {
+  color: rgb(166, 207, 152) !important;
+}
+
+a.text-primary:hover,
+a.text-primary:focus {
+  color: #9071c2 !important;
+}
+
+.text-secondary {
+  color: #6c757d !important;
+}
+
+a.text-secondary:hover,
+a.text-secondary:focus {
+  color: #494f54 !important;
+}
+
+.text-success {
+  color: #23cfa7 !important;
+}
+
+a.text-success:hover,
+a.text-success:focus {
+  color: #19692c !important;
+}
+
+.border-primary {
+  border-color: rgb(166, 207, 152) !important;
+}
+
+.breadcrumb a {
+  color: rgb(85, 124, 85);
+}
+
+.accordion-button:not(.collapsed) {
+  color: rgb(85, 124, 85);
+  background-color: #d8c1ff;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: rgb(166, 207, 152);
+}
+
+.form-check-input:checked {
+  border-color: rgb(166, 207, 152);
+  background-color: rgb(166, 207, 152);
+}
+
+/* changing menu icon from white to gray */
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(128,128,128, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
